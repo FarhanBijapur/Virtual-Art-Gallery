@@ -1,6 +1,6 @@
 # 🎨 Virtual Art Gallery
 
-A simple Java-based Virtual Art Gallery that allows users to browse through a collection of artworks displayed using a graphical user interface (GUI). This is a standalone desktop application that loads images from the `images/` folder and presents them in a slideshow format.
+A Java-based virtual art gallery that displays a slideshow of images using a simple graphical user interface (GUI). This project demonstrates basic image handling and GUI design using Java Swing.
 
 ## 📁 Project Structure
 
@@ -9,7 +9,8 @@ Virtual_Art_Gallery/
 └── images/
 ├── artwork1.jpg
 ├── artwork2.jpg
-└── ...
+├── artwork3.png
+└── ... (add more images here)
 
 markdown
 Copy
@@ -17,36 +18,39 @@ Edit
 
 ## 🖼️ Features
 
-- Loads artwork from the `images/` folder
-- Displays one image at a time in a frame
-- Automatically transitions between images every few seconds
-- Simple and elegant GUI interface using Java Swing
+- Loads images from the `images/` directory.
+- Displays each image one by one in a JFrame window.
+- Automatically switches to the next image after a short delay.
+- Clean and minimal user interface.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Java JDK (version 8 or later)
+- Java Development Kit (JDK) 8 or higher
 
-### How to Run
+### Steps to Run
 
-1. Clone or download this repository.
-2. Ensure the `images/` folder is in the same directory as `Virtual_Art_Gallery.java`.
-3. Compile and run the program:
+1. **Download or clone this repository.**
 
---- In bash
-javac Virtual_Art_Gallery.java
+2. **Place your images inside the `images/` folder.**
+
+3. **Open a terminal and compile the Java file:**
+
+   ```bash
+   javac Virtual_Art_Gallery.java
+Run the program:
+
+bash
+Copy
+Edit
 java Virtual_Art_Gallery
-Note: Replace Virtual_Art_Gallery.java with the actual class name if different.
+Make sure the images/ folder is in the same directory as the .java file.
 
-📝 Customization
-Add your own images to the images/ folder (JPG, PNG supported).
+🛠️ Customization
+To change the slideshow delay, edit the timer value in Virtual_Art_Gallery.java.
 
-Modify image duration or transition effects in the Java source file if needed.
-
-📦 Dependencies
-Java Swing (comes with standard JDK)
+Supported formats: .jpg, .png, .jpeg, etc.
 
 📄 License
-This project is licensed under the MIT License.
-
+This project is open-source
